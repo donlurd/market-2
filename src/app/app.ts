@@ -1,6 +1,15 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { Home } from './home/home';
+import { SearchBarComponent } from './search-bar-component/search-bar-component';
+import { HeaderComponent } from './header-component/header-component';
+import { CharComponent } from './char-component/char-component';
+import { TabComponent } from './tab-component/tab-component';
+import { SummaryComponent } from './summary-component/summary-component';
+import { InstrumentItemComponent } from './instrument-item-component/instrument-item-component';
+import { InstrumentListComponent } from './instrument-list-component/instrument-list-component';
+
+
 @Component({
   selector: 'app-root',
   imports: [Home, RouterOutlet],
